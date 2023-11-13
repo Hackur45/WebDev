@@ -1,0 +1,152 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+html {
+    background-image: url(https://images.unsplash.com/photo-1597239451147-f163967b8581?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 30%;
+    width: 600px;
+    background-color: #E9F1FA;
+    border-radius: 20px;
+    opacity: 0.8;
+    animation: steam 20s linear infinite;
+}
+
+h1 {
+    font-weight: 1500;
+    text-align: center;
+    color: blueviolet;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+h3 {
+    translate: 100px;
+    padding: 20px 0px 10px 20px;
+    color: cornflowerblue;
+}
+
+.input_name {
+    padding: 10px 5px 10px 5px;
+    margin-left: 15%;
+}
+
+input {
+    width: 80%;
+    padding: 18px 4px;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+}
+
+input:hover {
+    animation: hover_mandar;
+    animation-duration: 1000s;
+    translate: -5px -2px 10px;
+    transition-delay: 90ms;
+}
+
+@keyframes hover_mandar {
+    from {
+        background-color: rgba(58, 153, 174, 0.759);
+    }
+    to {
+        background-color: rgba(173, 33, 166, 0.322);
+    }
+}
+
+.mail_password {
+    padding: 10px 10px 10px 40px;
+    margin-left: 15%;
+}
+
+.mail_password input {
+    text-align: center;
+    width: 30%;
+    padding: 18px 10px 10px 10px;
+    margin: 3px;
+}
+
+.under_text {
+    display: flex;
+    gap: 10px;
+    translate: 10px;
+}
+
+.forgetemail {
+    padding-left: 30px;
+}
+
+.forgetpass {
+    padding-left: 40px;
+}
+
+.submit {
+    margin-left: 45%;
+    padding-bottom: 10px;
+}
+
+button {
+    text-decoration: none;
+    padding: 10px;
+    color: yellowgreen;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 50px;
+    background-color: #e8f9fd;
+    border-style: solid;
+}
+
+button:hover {
+    animation: cubic-bezier(0.23, 1, 0.320, 1);
+    animation-duration: 2s;
+    background-color: green;
+    animation-delay: 100ms;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 10px;
+}
+
+i {
+    font-size: 30px;
+}
+
+.dont_have {
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes steam {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}

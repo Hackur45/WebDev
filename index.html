@@ -8,10 +8,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Login page</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
 </head>
 
 <body>
@@ -21,7 +23,43 @@
 
     <script src="" async defer></script>
 
-    <h1>This is my first Commit</h1>
+    <div class="main">
+        <h1>
+            Login Page
+        </h1>
+
+        <div class="input_name">
+            <input type="text" placeholder="Name">
+        </div>
+
+        <div class="input_name">
+            <input type="text" placeholder="LastName">
+        </div>
+
+        <div class="mail_password">
+            <input type="email" placeholder="email" autocomplete="email">
+            <input type="password" placeholder="password"><br>
+            <div class="under_text">
+                <div class="forgetemail"> <a href="#" target="_blank">Forget Email?</a></div>
+                <div class="forgetpass"> <a href=# target="_blank">Forget password?</a></div>
+            </div>
+        </div>
+
+        <h2>OR</h2>
+
+        <nav class="icons">
+            <a href="#" target="_blank"><i class="fa-brands fa-google"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" target="_blank"> <i class="fa-brands fa-twitter"></i></a>
+        </nav>
+
+        <div class="submit">
+            <button>Submit</button>
+        </div>
+
+        <div class="dont_have">
+            <p>Dont have account? <a href="#">click here</a></p>
+        </div>
 </body>
 
 </html>
